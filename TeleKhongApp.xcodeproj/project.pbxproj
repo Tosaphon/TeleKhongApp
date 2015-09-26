@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F21248321BB652C6009E5B88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21248311BB652C6009E5B88 /* AppDelegate.swift */; };
+		F21248341BB652C6009E5B88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21248331BB652C6009E5B88 /* ViewController.swift */; };
+		F21248371BB652C6009E5B88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21248351BB652C6009E5B88 /* Main.storyboard */; };
+		F212483A1BB652C6009E5B88 /* TeleKhongApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F21248381BB652C6009E5B88 /* TeleKhongApp.xcdatamodeld */; };
+		F212483C1BB652C6009E5B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F212483B1BB652C6009E5B88 /* Assets.xcassets */; };
+		F212483F1BB652C6009E5B88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F212483D1BB652C6009E5B88 /* LaunchScreen.storyboard */; };
+		F212484A1BB652C6009E5B88 /* TeleKhongAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21248491BB652C6009E5B88 /* TeleKhongAppTests.swift */; };
+		F21248551BB652C6009E5B88 /* TeleKhongAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21248541BB652C6009E5B88 /* TeleKhongAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F21248461BB652C6009E5B88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F21248261BB652C6009E5B88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F212482D1BB652C6009E5B88;
+			remoteInfo = TeleKhongApp;
+		};
+		F21248511BB652C6009E5B88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F21248261BB652C6009E5B88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F212482D1BB652C6009E5B88;
+			remoteInfo = TeleKhongApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F212482E1BB652C6009E5B88 /* TeleKhongApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeleKhongApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21248311BB652C6009E5B88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F21248331BB652C6009E5B88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F21248361BB652C6009E5B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F21248391BB652C6009E5B88 /* TeleKhongApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TeleKhongApp.xcdatamodel; sourceTree = "<group>"; };
+		F212483B1BB652C6009E5B88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F212483E1BB652C6009E5B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F21248401BB652C6009E5B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21248451BB652C6009E5B88 /* TeleKhongAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeleKhongAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21248491BB652C6009E5B88 /* TeleKhongAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleKhongAppTests.swift; sourceTree = "<group>"; };
+		F212484B1BB652C6009E5B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21248501BB652C6009E5B88 /* TeleKhongAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeleKhongAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21248541BB652C6009E5B88 /* TeleKhongAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleKhongAppUITests.swift; sourceTree = "<group>"; };
+		F21248561BB652C6009E5B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F212482B1BB652C6009E5B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21248421BB652C6009E5B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F212484D1BB652C6009E5B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F21248251BB652C6009E5B88 = {
+			isa = PBXGroup;
+			children = (
+				F21248301BB652C6009E5B88 /* TeleKhongApp */,
+				F21248481BB652C6009E5B88 /* TeleKhongAppTests */,
+				F21248531BB652C6009E5B88 /* TeleKhongAppUITests */,
+				F212482F1BB652C6009E5B88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F212482F1BB652C6009E5B88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F212482E1BB652C6009E5B88 /* TeleKhongApp.app */,
+				F21248451BB652C6009E5B88 /* TeleKhongAppTests.xctest */,
+				F21248501BB652C6009E5B88 /* TeleKhongAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F21248301BB652C6009E5B88 /* TeleKhongApp */ = {
+			isa = PBXGroup;
+			children = (
+				F21248311BB652C6009E5B88 /* AppDelegate.swift */,
+				F21248331BB652C6009E5B88 /* ViewController.swift */,
+				F21248351BB652C6009E5B88 /* Main.storyboard */,
+				F212483B1BB652C6009E5B88 /* Assets.xcassets */,
+				F212483D1BB652C6009E5B88 /* LaunchScreen.storyboard */,
+				F21248401BB652C6009E5B88 /* Info.plist */,
+				F21248381BB652C6009E5B88 /* TeleKhongApp.xcdatamodeld */,
+			);
+			path = TeleKhongApp;
+			sourceTree = "<group>";
+		};
+		F21248481BB652C6009E5B88 /* TeleKhongAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F21248491BB652C6009E5B88 /* TeleKhongAppTests.swift */,
+				F212484B1BB652C6009E5B88 /* Info.plist */,
+			);
+			path = TeleKhongAppTests;
+			sourceTree = "<group>";
+		};
+		F21248531BB652C6009E5B88 /* TeleKhongAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F21248541BB652C6009E5B88 /* TeleKhongAppUITests.swift */,
+				F21248561BB652C6009E5B88 /* Info.plist */,
+			);
+			path = TeleKhongAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F212482D1BB652C6009E5B88 /* TeleKhongApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21248591BB652C6009E5B88 /* Build configuration list for PBXNativeTarget "TeleKhongApp" */;
+			buildPhases = (
+				F212482A1BB652C6009E5B88 /* Sources */,
+				F212482B1BB652C6009E5B88 /* Frameworks */,
+				F212482C1BB652C6009E5B88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeleKhongApp;
+			productName = TeleKhongApp;
+			productReference = F212482E1BB652C6009E5B88 /* TeleKhongApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F21248441BB652C6009E5B88 /* TeleKhongAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F212485C1BB652C6009E5B88 /* Build configuration list for PBXNativeTarget "TeleKhongAppTests" */;
+			buildPhases = (
+				F21248411BB652C6009E5B88 /* Sources */,
+				F21248421BB652C6009E5B88 /* Frameworks */,
+				F21248431BB652C6009E5B88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F21248471BB652C6009E5B88 /* PBXTargetDependency */,
+			);
+			name = TeleKhongAppTests;
+			productName = TeleKhongAppTests;
+			productReference = F21248451BB652C6009E5B88 /* TeleKhongAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F212484F1BB652C6009E5B88 /* TeleKhongAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F212485F1BB652C6009E5B88 /* Build configuration list for PBXNativeTarget "TeleKhongAppUITests" */;
+			buildPhases = (
+				F212484C1BB652C6009E5B88 /* Sources */,
+				F212484D1BB652C6009E5B88 /* Frameworks */,
+				F212484E1BB652C6009E5B88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F21248521BB652C6009E5B88 /* PBXTargetDependency */,
+			);
+			name = TeleKhongAppUITests;
+			productName = TeleKhongAppUITests;
+			productReference = F21248501BB652C6009E5B88 /* TeleKhongAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F21248261BB652C6009E5B88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "NEXUS Mac";
+				TargetAttributes = {
+					F212482D1BB652C6009E5B88 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F21248441BB652C6009E5B88 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F212482D1BB652C6009E5B88;
+					};
+					F212484F1BB652C6009E5B88 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F212482D1BB652C6009E5B88;
+					};
+				};
+			};
+			buildConfigurationList = F21248291BB652C6009E5B88 /* Build configuration list for PBXProject "TeleKhongApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F21248251BB652C6009E5B88;
+			productRefGroup = F212482F1BB652C6009E5B88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F212482D1BB652C6009E5B88 /* TeleKhongApp */,
+				F21248441BB652C6009E5B88 /* TeleKhongAppTests */,
+				F212484F1BB652C6009E5B88 /* TeleKhongAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F212482C1BB652C6009E5B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F212483F1BB652C6009E5B88 /* LaunchScreen.storyboard in Resources */,
+				F212483C1BB652C6009E5B88 /* Assets.xcassets in Resources */,
+				F21248371BB652C6009E5B88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21248431BB652C6009E5B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F212484E1BB652C6009E5B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F212482A1BB652C6009E5B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21248341BB652C6009E5B88 /* ViewController.swift in Sources */,
+				F212483A1BB652C6009E5B88 /* TeleKhongApp.xcdatamodeld in Sources */,
+				F21248321BB652C6009E5B88 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21248411BB652C6009E5B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F212484A1BB652C6009E5B88 /* TeleKhongAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F212484C1BB652C6009E5B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21248551BB652C6009E5B88 /* TeleKhongAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F21248471BB652C6009E5B88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F212482D1BB652C6009E5B88 /* TeleKhongApp */;
+			targetProxy = F21248461BB652C6009E5B88 /* PBXContainerItemProxy */;
+		};
+		F21248521BB652C6009E5B88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F212482D1BB652C6009E5B88 /* TeleKhongApp */;
+			targetProxy = F21248511BB652C6009E5B88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F21248351BB652C6009E5B88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21248361BB652C6009E5B88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F212483D1BB652C6009E5B88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F212483E1BB652C6009E5B88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F21248571BB652C6009E5B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F21248581BB652C6009E5B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F212485A1BB652C6009E5B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TeleKhongApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nexusapp.TeleKhongApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F212485B1BB652C6009E5B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TeleKhongApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nexusapp.TeleKhongApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F212485D1BB652C6009E5B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TeleKhongAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nexusapp.TeleKhongAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeleKhongApp.app/TeleKhongApp";
+			};
+			name = Debug;
+		};
+		F212485E1BB652C6009E5B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TeleKhongAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nexusapp.TeleKhongAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeleKhongApp.app/TeleKhongApp";
+			};
+			name = Release;
+		};
+		F21248601BB652C6009E5B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TeleKhongAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nexusapp.TeleKhongAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TeleKhongApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F21248611BB652C6009E5B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TeleKhongAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nexusapp.TeleKhongAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TeleKhongApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F21248291BB652C6009E5B88 /* Build configuration list for PBXProject "TeleKhongApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21248571BB652C6009E5B88 /* Debug */,
+				F21248581BB652C6009E5B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21248591BB652C6009E5B88 /* Build configuration list for PBXNativeTarget "TeleKhongApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F212485A1BB652C6009E5B88 /* Debug */,
+				F212485B1BB652C6009E5B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F212485C1BB652C6009E5B88 /* Build configuration list for PBXNativeTarget "TeleKhongAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F212485D1BB652C6009E5B88 /* Debug */,
+				F212485E1BB652C6009E5B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F212485F1BB652C6009E5B88 /* Build configuration list for PBXNativeTarget "TeleKhongAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21248601BB652C6009E5B88 /* Debug */,
+				F21248611BB652C6009E5B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F21248381BB652C6009E5B88 /* TeleKhongApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F21248391BB652C6009E5B88 /* TeleKhongApp.xcdatamodel */,
+			);
+			currentVersion = F21248391BB652C6009E5B88 /* TeleKhongApp.xcdatamodel */;
+			path = TeleKhongApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F21248261BB652C6009E5B88 /* Project object */;
+}
