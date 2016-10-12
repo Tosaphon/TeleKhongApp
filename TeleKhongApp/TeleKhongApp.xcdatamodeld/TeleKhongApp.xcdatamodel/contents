@@ -1,4 +1,66 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="15A284" minimumToolsVersion="Automatic">
+    <entity name="Btable" representedClassName=".Btable" syncable="YES">
+        <attribute name="beaconStr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="major" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Favtable" representedClassName=".Favtable" syncable="YES">
+        <attribute name="catagory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info_begin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info_desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info_expire" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info_pic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="store_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="store_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Followtable" representedClassName=".Followtable" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="opentime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tel" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Mtable" representedClassName=".Mtable" syncable="YES">
+        <attribute name="catagory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info_begin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info_desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info_expire" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info_pic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="store_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="store_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Stable" representedClassName=".Stable" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="opentime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tel" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Subtable" representedClassName=".Subtable" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="opentime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tel" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Btable" positionX="-54" positionY="9" width="128" height="105"/>
+        <element name="Favtable" positionX="-45" positionY="99" width="128" height="180"/>
+        <element name="Followtable" positionX="-45" positionY="126" width="128" height="150"/>
+        <element name="Mtable" positionX="-54" positionY="36" width="128" height="180"/>
+        <element name="Stable" positionX="-45" positionY="90" width="128" height="150"/>
+        <element name="Subtable" positionX="-36" positionY="108" width="128" height="150"/>
+    </elements>
 </model>

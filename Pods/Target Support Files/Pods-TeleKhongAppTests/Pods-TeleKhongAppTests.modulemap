@@ -1,0 +1,6 @@
+framework module Pods_TeleKhongAppTests {
+  umbrella header "Pods-TeleKhongAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
